@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  rating-data:
+    image: rating-data
+    build: .
+    ports:
+      - 8082:8082
